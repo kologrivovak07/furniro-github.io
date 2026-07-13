@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="logo">
+                        <img src="images/logo.svg" alt="" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a href="index.html" class="menu__list-link">Home</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="catalog.html" class="menu__list-link">Shop</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="about.html" class="menu__list-link">Blog</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="contact.html" class="menu__list-link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="page-banner">
+                <img src="images/banner.jpg" alt="Contact Banner" class="page-banner__bg">
+                <div class="container">
+                    <div class="page-banner__content">
+                        <img src="images/logos.svg" alt="Furniro" class="page-banner__logo">
+                        <h1 class="page-banner__title">Shop</h1>
+                        <div class="page-banner__breadcrumbs">
+                            <a href="index.html" class="page-banner__breadcrumb">Home</a>
+                            <span class="page-banner__separator">></span>
+                            <span class="page-banner__breadcrumb-current">Shop</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="catalog-filter">
+                <div class="container">
+                    <div class="catalog-filter__wrapper">
+                        <div class="catalog-filter__left">
+                            <button class="catalog-filter__btn-filter">
+                                <img src="images/icon-5.svg" alt="Filter" class="catalog-filter__icon">
+                                Filter
+                            </button>
+                            <span class="catalog-filter__divider">|</span>
+                            <span class="catalog-filter__results">Showing 1–16 of 32 results</span>
+                        </div>
+                        <div class="catalog-filter__right">
+                            <div class="catalog-filter__group">
+                                <label class="catalog-filter__label">Show</label>
+                                <select class="catalog-filter__select">
+                                    <option value="16">16</option>
+                                    <option value="32">32</option>
+                                    <option value="48">48</option>
+                                </select>
+                            </div>
+                            <div class="catalog-filter__group">
+                                <label class="catalog-filter__label">Short by</label>
+                                <select class="catalog-filter__select">
+                                    <option value="default">Default</option>
+                                    <option value="price-low">Price: Low to High</option>
+                                    <option value="price-high">Price: High to Low</option>
+                                    <option value="popular">Popular</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="catalog-products">
+                <div class="container">
+                    <div class="catalog-products__grid">
+                        <a href="product.html" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product9.jpg" alt="Asgaard sofa" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Asgaard sofa</h3>
+                                <p class="product-card__desc">Stylish cafe chair</p>
+                                <p class="product-card__price">Rp 250.000.000</p>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product2.jpg" alt="Syltherine" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Syltherine</h3>
+                                <p class="product-card__desc">Stylish cafe chair</p>
+                                <div class="products__price">
+                                    <span class="products__price-current">Rp 2.500.000</span>
+                                    <span class="products__price-old">Rp 3.500.000</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product3.jpg" alt="Lolito" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Lolito</h3>
+                                <p class="product-card__desc">Luxury big sofa</p>
+                                <div class="products__price">
+                                    <span class="products__price-current">Rp 7.000.000</span>
+                                    <span class="products__price-old">Rp 14.000.000</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product4.jpg" alt="Respira" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Respira</h3>
+                                <p class="product-card__desc">Outdoor bar table</p>
+                                <p class="product-card__price">Rp 500.000</p>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product5.jpg" alt="Grifo" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Grifo</h3>
+                                <p class="product-card__desc">Night lamp</p>
+                                <p class="product-card__price">Rp 1.500.000</p>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product6.jpg" alt="Muggo" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Muggo</h3>
+                                <p class="product-card__desc">Small mug</p>
+                                <p class="product-card__price">Rp 150.000</p>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product7.jpg" alt="Pingky" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Pingky</h3>
+                                <p class="product-card__desc">Cute bed set</p>
+                                <div class="products__price">
+                                    <span class="products__price-current">Rp 7.000.000</span>
+                                    <span class="products__price-old">Rp 14.000.000</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product8.jpg" alt="Potty" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Potty</h3>
+                                <p class="product-card__desc">Minimalist flower pot</p>
+                                <p class="product-card__price">Rp 500.000</p>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product1.jpg" alt="Leviosa" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Leviosa</h3>
+                                <p class="product-card__desc">Stylish cafe chair</p>
+                                <p class="product-card__price">Rp 2.500.000</p>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product2.jpg" alt="Syltherine" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Syltherine</h3>
+                                <p class="product-card__desc">Stylish cafe chair</p>
+                                <div class="products__price">
+                                    <span class="products__price-current">Rp 2.500.000</span>
+                                    <span class="products__price-old">Rp 3.500.000</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product3.jpg" alt="Lolito" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Lolito</h3>
+                                <p class="product-card__desc">Luxury big sofa</p>
+                                <div class="products__price">
+                                    <span class="products__price-current">Rp 7.000.000</span>
+                                    <span class="products__price-old">Rp 14.000.000</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product4.jpg" alt="Respira" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Respira</h3>
+                                <p class="product-card__desc">Outdoor bar table</p>
+                                <p class="product-card__price">Rp 500.000</p>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product5.jpg" alt="Grifo" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Grifo</h3>
+                                <p class="product-card__desc">Night lamp</p>
+                                <p class="product-card__price">Rp 1.500.000</p>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product6.jpg" alt="Muggo" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Muggo</h3>
+                                <p class="product-card__desc">Small mug</p>
+                                <p class="product-card__price">Rp 150.000</p>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product7.jpg" alt="Pingky" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Pingky</h3>
+                                <p class="product-card__desc">Cute bed set</p>
+                                <div class="products__price">
+                                    <span class="products__price-current">Rp 7.000.000</span>
+                                    <span class="products__price-old">Rp 14.000.000</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/product8.jpg" alt="Potty" class="product-card__img">
+                                <div class="product-card__hover">
+                                    <button class="product-card__btn-add">Add to cart</button>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__action">
+                                            <img src="images/icon-share.svg" alt="Share" class="product-card__icon">
+                                            Share
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-compare.svg" alt="Compare" class="product-card__icon">
+                                            Compare
+                                        </button>
+                                        <button class="product-card__action">
+                                            <img src="images/icon-like.svg" alt="Like" class="product-card__icon">
+                                            Like
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__title">Potty</h3>
+                                <p class="product-card__desc">Minimalist flower pot</p>
+                                <p class="product-card__price">Rp 500.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="pagination">
+                        <button class="pagination__btn pagination__btn--active">1</button>
+                        <button class="pagination__btn">2</button>
+                        <button class="pagination__btn">3</button>
+                        <button class="pagination__btn pagination__btn--next">Next</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="benefits">
+                <div class="container">
+                    <div class="benefits__grid">
+                        <div class="benefits__item">
+                            <div class="benefits__icon">
+                                <img src="images/icon-1.svg" alt="High Quality">
+                            </div>
+                            <div class="benefits__content">
+                                <h3 class="benefits__title">High Quality</h3>
+                                <p class="benefits__text">crafted from top materials</p>
+                            </div>
+                        </div>
+                        <div class="benefits__item">
+                            <div class="benefits__icon">
+                                <img src="images/icon-3.svg" alt="Warranty Protection">
+                            </div>
+                            <div class="benefits__content">
+                                <h3 class="benefits__title">Warranty Protection</h3>
+                                <p class="benefits__text">Over 2 years</p>
+                            </div>
+                        </div>
+                        <div class="benefits__item">
+                            <div class="benefits__icon">
+                                <img src="images/icon-2.svg" alt="Free Shipping">
+                            </div>
+                            <div class="benefits__content">
+                                <h3 class="benefits__title">Free Shipping</h3>
+                                <p class="benefits__text">Order over 150 $</p>
+                            </div>
+                        </div>
+                        <div class="benefits__item">
+                            <div class="benefits__icon">
+                                <img src="images/icon-4.svg" alt="24/7 Support">
+                            </div>
+                            <div class="benefits__content">
+                                <h3 class="benefits__title">24 / 7 Support</h3>
+                                <p class="benefits__text">Dedicated support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title-brand">Funiro.</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-brand">400 University Drive Suite 200 Coral 
+                                Gables,
+                                \n FL 33134 USA</p>
+                        </li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">Links</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="index.html" class="footer__menu-link">Home</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="catalog.html" class="footer__menu-link">Shop</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="about.html" class="footer__menu-link">Blog</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="contact.html" class="footer__menu-link">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">Help</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Payment Options</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Returns</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Privacy Policies</a>
+                        </li>
+                        
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">Newsletter</p>
+                        </li>
+                        <li class="footer__menu-item">
+                        <form class="footer__newsletter-form">
+                         <input class="footer__newsletter-input" type="email" placeholder="Enter Your Email Address">
+                        <button class="footer__newsletter-btn" type="submit">SUBSCRIBE</button>
+                         </form>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__copy">
+                    <p class="footer__copy-text">
+                        2023 furino. All rights reverved
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+</body>
+</html>
+
